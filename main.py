@@ -1,11 +1,12 @@
 from romanos import *
 
-print(romano_a_entero('M'))
-print(romano_a_entero('D'))
-print(romano_a_entero('C'))
-print(romano_a_entero('L'))
-print(romano_a_entero('X'))
-print(romano_a_entero('V'))
-print(romano_a_entero('I'))
-print(romano_a_entero('Z'))
+assert romano_a_entero('I') == 1, 'I es incorrecto'
+assert romano_a_entero('M') == 1000, 'M es incorrecto'
+assert romano_a_entero('D') == 500, 'D es incorrecto'
+assert romano_a_entero('C') == 100, 'C es incorrecto'
+assert romano_a_entero('L') == 50, 'L es incorrecto'
+assert romano_a_entero('X') == 10, 'X es incorrecto'
+assert romano_a_entero('V') == 5, 'V es incorrecto'
+
 print(romano_a_entero(23))
+print(romano_a_entero('Z'))
